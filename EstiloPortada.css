@@ -1,0 +1,85 @@
+@font-face{
+    font-family: 'futuraGruesa';
+    src: url('7189740448.ttf');
+}
+
+@font-face{
+    font-family: 'futuraStd';
+    src: url('FuturaStd-Light.otf');
+}
+
+body{
+    background-color: black;
+    color: #ed8500;
+}
+
+.cabecera{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecera img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+.cabecera h1{
+    font-family: 'futuraGruesa';
+    margin-bottom: 0px ;  
+}
+
+.cabecera p{
+    font-family: 'futuraStd';
+    color: white;
+    margin-top: 0px;
+    font-size: 1.8em ;
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: #ed8500;
+    padding:1px;
+}
+
+li{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+    width: 150px;  
+    text-align: center;   
+}
+
+li a{
+    color:  #000000 ;
+    text-decoration: none;
+}
+
+li a:hover {
+  color: #662d91;
+}
+
+li a:active {   
+    color: #ffd12c;
+  }
+
+li:active{
+    background-color: #662d91;
+    color: #ed8500;
+}
+
+li:not(:active){
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
